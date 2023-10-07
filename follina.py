@@ -1,11 +1,11 @@
-#!/usr/bin/env python3
+
 
 import argparse
 import zipfile
 import tempfile
 import shutil
-import os
-import netifaces
+import os, sys
+import netifaces # pip3 install netifaces
 import ipaddress
 import random
 import base64
